@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import { HomePage } from "../pages/home";
-import { AboutPage } from "../pages/about";
+import { HomePage } from "../modules/home/page";
+import { AboutPage } from "../modules/about/page";
 
 export const router = createBrowserRouter([
   {
     path: "*",
     lazy: async () => {
-      const { NotFound } = await import("../pages/not-found");
+      const { NotFound } = await import("../modules/not-found/page");
       return { Component: NotFound };
     },
   },
