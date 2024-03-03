@@ -6,37 +6,38 @@ export const Navbar: FC = () => {
   //   const iconSize = { fontSize: 20 };
   const menuList = [
     {
-      label: "Tableau de bord",
+      label: "Accueil",
       key: "/",
       //   icon: <GoHomeFill style={iconSize} />,
     },
     {
-      label: "CRM",
-      key: "crm",
+      label: "A propos",
+      key: "/about",
+
       //   icon: <FaUser style={iconSize} />,
-      children: [
-        {
-          label: "Contacts",
-          key: "crm/contacts-client",
-        },
-        {
-          label: "Clients",
-          key: "clients",
-        },
-        {
-          label: "Dossiers",
-          key: "crm/dossiers",
-        },
-        {
-          label: "Transactions",
-          key: "crm/transactions",
-        },
-      ],
+      //   children: [
+      //     {
+      //       label: "A propos",
+      //       key: "crm/contacts-client",
+      //     },
+      //     {
+      //       label: "Clients",
+      //       key: "clients",
+      //     },
+      //     {
+      //       label: "Dossiers",
+      //       key: "crm/dossiers",
+      //     },
+      //     {
+      //       label: "Transactions",
+      //       key: "crm/transactions",
+      //     },
+      //   ],
     },
   ];
   return (
     <div className={styles.sidebar__container}>
-      <MenuBuilder menuList={menuList} isActive />
+      <MenuBuilder menuList={menuList} isActive mode="horizontal" />
     </div>
   );
 };

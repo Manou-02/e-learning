@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import { HomePage } from "../modules/home/page";
 import { AboutPage } from "../modules/about/page";
+import { ProtectedRoutes } from "./ProtectedRoutes";
 
 export const router = createBrowserRouter([
   {
@@ -12,7 +12,23 @@ export const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <HomePage />,
+    element: <ProtectedRoutes />,
+    children: [
+      {
+        path: "/",
+        lazy: async () => {
+          const { HomePage } = await import("@modules/home/page");
+          return { Component: HomePage };
+        },
+      },
+      {
+        path: "/about",
+        lazy: async () => {
+          const { AboutPage } = await import("@modules/about/page");
+          return { Component: AboutPage };
+        },
+      },
+    ],
   },
   {
     path: "/about",
