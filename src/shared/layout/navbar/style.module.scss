@@ -1,6 +1,29 @@
 .sidebar {
   &__container {
-    @apply z-50 border-b;
+    @apply z-10  flex justify-center;
     // box-shadow: 11px 11px 22px #e8e8e8, -11px -11px 22px #ffffff;
+  }
+  &__content {
+    @apply w-[1280px];
+  }
+
+  &__navbar {
+    @apply border-b-[1px] border-t border-slate-500;
+  }
+
+  &__icon_container {
+    @apply w-full flex justify-between bg-white z-20 items-center sticky top-0  py-[20px];
+  }
+
+  &__icon {
+    @apply w-[30px] h-[30px] cursor-pointer;
+  }
+
+  &__title {
+    @apply text-xl;
+  }
+
+  &__button {
+    @apply text-white bg-slate-950 h-[50px] w-[100px] cursor-pointer;
   }
 }

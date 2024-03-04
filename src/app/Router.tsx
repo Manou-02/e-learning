@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutPage } from "../modules/about/page";
 import { ProtectedRoutes } from "./ProtectedRoutes";
 
 export const router = createBrowserRouter([
@@ -22,16 +21,19 @@ export const router = createBrowserRouter([
         },
       },
       {
-        path: "/about",
+        path: "/catalogue",
         lazy: async () => {
-          const { AboutPage } = await import("@modules/about/page");
-          return { Component: AboutPage };
+          const { CataloguePage } = await import("@modules/catalogue/page");
+          return { Component: CataloguePage };
+        },
+      },
+      {
+        path: "/learn-space",
+        lazy: async () => {
+          const { LearnSpacePage } = await import("@modules/learn-space/page");
+          return { Component: LearnSpacePage };
         },
       },
     ],
-  },
-  {
-    path: "/about",
-    element: <AboutPage />,
   },
 ]);

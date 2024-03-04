@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { MenuBuilder } from "../menuBuider/MenuBuilder";
 import styles from "./style.module.scss";
+import { RiMenu2Fill } from "react-icons/ri";
 
 export const Navbar: FC = () => {
   //   const iconSize = { fontSize: 20 };
@@ -8,36 +9,29 @@ export const Navbar: FC = () => {
     {
       label: "Accueil",
       key: "/",
-      //   icon: <GoHomeFill style={iconSize} />,
     },
     {
-      label: "A propos",
-      key: "/about",
+      label: "Catalogue des formations",
+      key: "/catalogue",
+    },
 
-      //   icon: <FaUser style={iconSize} />,
-      //   children: [
-      //     {
-      //       label: "A propos",
-      //       key: "crm/contacts-client",
-      //     },
-      //     {
-      //       label: "Clients",
-      //       key: "clients",
-      //     },
-      //     {
-      //       label: "Dossiers",
-      //       key: "crm/dossiers",
-      //     },
-      //     {
-      //       label: "Transactions",
-      //       key: "crm/transactions",
-      //     },
-      //   ],
+    {
+      label: "Espace apprenants",
+      key: "/learn-space",
     },
   ];
   return (
     <div className={styles.sidebar__container}>
-      <MenuBuilder menuList={menuList} isActive mode="horizontal" />
+      <div className={styles.sidebar__content}>
+        <div className={styles.sidebar__icon_container}>
+          <RiMenu2Fill className={styles.sidebar__icon} />
+          <div className={styles.sidebar__title}>E-learning</div>
+          <button className={styles.sidebar__button}>Demo</button>
+        </div>
+        <div className={styles.sidebar__navbar}>
+          <MenuBuilder menuList={menuList} isActive mode="horizontal" />
+        </div>
+      </div>
     </div>
   );
 };

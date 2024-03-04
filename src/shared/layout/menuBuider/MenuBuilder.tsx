@@ -37,7 +37,7 @@ export const MenuBuilder: FC<PropsType> = ({
       <Menu
         className={classNames({
           "h-[100vh] overflow-y-auto": mode === "inline",
-          "flex justify-start items-start": mode != "inline",
+          "flex justify-center items-start": mode != "inline",
           "border-none": mode != "inline",
           "bg-darkBlue": mode === "inline",
         })}

@@ -1,9 +1,10 @@
 import { Container } from "@/shared/layout/container/Container";
+import React from "react";
 
-export const HomePage = () => {
+export const LearnSpacePage = () => {
   return (
     <Container>
-      <p>Home page</p>
+      <p>LearnSpacePage</p>
     </Container>
   );
 };
