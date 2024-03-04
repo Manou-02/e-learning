@@ -11,7 +11,7 @@ type PropsType = {
 
 export const Card: FC<PropsType> = ({ image, destiny, title }) => {
   return (
-    <div className="w-[300px] h-[420px] hover:scale-105 bg-white border rounded-[8px] flex flex-col gap-[10px] cursor-pointer border-slate-100 p-[10px]">
+    <div className="w-[300px] h-[420px] hover:scale-105 duration-150 bg-white border rounded-[8px] flex flex-col gap-[10px] cursor-pointer border-slate-100 p-[10px]">
       <div className="bg-slate-300 w-full h-[70%] rounded-[8px] ">
         <img
           src={image}

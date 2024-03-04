@@ -1,5 +1,5 @@
 import { AntPagination } from "@/shared/layout/pagination/Pagination";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card } from "../Card/Card";
 import { Checkbox } from "antd";
 

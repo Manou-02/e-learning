@@ -9,7 +9,7 @@ import { RelationAndCommunication } from "../components/RelationAndCommunication
 const items: TabsProps["items"] = [
   {
     key: "1",
-    label: "Développemnt personnel",
+    label: "Développement personnel",
     children: <PersonalDevelopment />,
   },
   {
