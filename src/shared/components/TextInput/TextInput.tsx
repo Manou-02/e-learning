@@ -23,7 +23,6 @@ export const TextInput: FC<InputType> = ({
   size = "large",
   required = false,
   value,
-  type = "text",
   onChange,
 }) => {
   const [defaultValue, setDefaultValue] = useState<any>(value);
