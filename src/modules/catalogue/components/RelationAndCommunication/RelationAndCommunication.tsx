@@ -79,7 +79,7 @@ export const RelationAndCommunication = () => {
   const [allFilterType] = useState<Array<any>>(filterType);
 
   return (
-    <div className="flex gap-[20px] w-full">
+    <div className="flex gap-[20px] w-full mt-[10px]">
       <div className="bg-slate-50 p-[10px] min-w-max max-w-max rounded-[8px]">
         <p className="font-semibold text-lg mb-[20px]"> Filtrer par </p>
         <div className="flex flex-col gap-[10px]">
@@ -92,7 +92,7 @@ export const RelationAndCommunication = () => {
         </div>
       </div>
       <div className="">
-        <div className="my-[20px] flex-4 flex flex-wrap gap-[20px] w-full">
+        <div className="mb-[20px] flex-4 flex flex-wrap gap-[20px] w-full">
           {allData?.length &&
             allData?.map((item: any, index: number) => (
               <Card

@@ -152,7 +152,7 @@ export const HapinessAndHealth = () => {
   const [allFilterType] = useState<Array<any>>(filterType);
 
   return (
-    <div className="flex gap-[20px] w-full">
+    <div className="flex gap-[20px] mt-[10px] w-full">
       <div className="bg-slate-50 p-[10px] rounded-[8px]  min-w-max max-w-max">
         <p className="font-semibold text-lg mb-[20px]"> Filtrer par </p>
         <div className="flex flex-col gap-[10px]">
@@ -165,7 +165,7 @@ export const HapinessAndHealth = () => {
         </div>
       </div>
       <div className="">
-        <div className="my-[20px] flex-4 flex flex-wrap gap-[20px] w-full">
+        <div className="mb-[20px] flex-4 flex flex-wrap gap-[20px] w-full">
           {allData?.length &&
             allData?.map((item: any, index: number) => (
               <Card
