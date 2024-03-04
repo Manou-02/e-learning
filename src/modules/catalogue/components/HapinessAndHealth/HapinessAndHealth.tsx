@@ -153,7 +153,7 @@ export const HapinessAndHealth = () => {
 
   return (
     <div className="flex gap-[20px] w-full">
-      <div className="bg-slate-50 p-[10px] rounded-[8px] w-full">
+      <div className="bg-slate-50 p-[10px] rounded-[8px]  min-w-max max-w-max">
         <p className="font-semibold text-lg mb-[20px]"> Filtrer par </p>
         <div className="flex flex-col gap-[10px]">
           {allFilterType?.length &&
