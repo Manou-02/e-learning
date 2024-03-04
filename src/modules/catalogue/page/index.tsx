@@ -40,12 +40,7 @@ export const CataloguePage = () => {
     <Container>
       <p className="font-bold text-xl my-[20px]">Cours</p>
       <div className="flex gap-[10px]">
-        <div className="flex-1">
-          <p>Filtres</p>
-        </div>
-        <div className="">
-          <Tabs defaultActiveKey="1" items={items} onChange={onChangeTabs} />
-        </div>
+        <Tabs defaultActiveKey="1" items={items} onChange={onChangeTabs} />
       </div>
     </Container>
   );
