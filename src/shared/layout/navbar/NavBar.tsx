@@ -16,7 +16,7 @@ const menuList = [
 
   {
     label: "Espace apprenants",
-    key: "/learn-space",
+    key: "/login",
   },
 ];
 

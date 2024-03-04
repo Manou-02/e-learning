@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import { Menu } from "antd";
 import type { MenuProps } from "antd";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import classNames from "classnames";
 // import { Color } from "@/shared/config/Colors";
 
@@ -28,6 +28,14 @@ export const MenuBuilder: FC<PropsType> = ({
   isActive = false,
 }) => {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const [activeKey, setActiveKey] = useState<string>("/");
+
+  useEffect(() => {
+    setActiveKey(activeKey);
+  }, [location]);
+
   const onClick: MenuProps["onClick"] = (e) => {
     navigate(e.key);
   };
@@ -52,6 +60,7 @@ export const MenuBuilder: FC<PropsType> = ({
               ]
             : []
         }
+        activeKey={activeKey}
         defaultOpenKeys={[menuList[0]["key"]]}
         mode={mode}
         items={menuList}

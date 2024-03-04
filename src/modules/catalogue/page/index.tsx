@@ -31,7 +31,7 @@ const items: TabsProps["items"] = [
 
 export const CataloguePage = () => {
   const onChangeTabs = (e: any) => {
-    console.log("zazaza\n", e);
+    console.log("\n", e);
   };
 
   return (
