@@ -1,6 +1,4 @@
 import { Container } from "@/shared/layout/container/Container";
-import { Card } from "../components/Card/Card";
-import { AntPagination } from "@/shared/layout/pagination/Pagination";
 import { Tabs } from "antd";
 import { TabsProps } from "antd/lib";
 import { PersonalDevelopment } from "../components/PersonalDevelopment/PersonalDevelopment";
