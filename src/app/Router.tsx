@@ -36,4 +36,11 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/login",
+    lazy: async () => {
+      const { Login } = await import("../modules/auth/login/Login");
+      return { Component: Login };
+    },
+  },
 ]);
