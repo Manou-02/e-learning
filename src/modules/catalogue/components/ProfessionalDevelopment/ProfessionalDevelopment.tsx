@@ -7,103 +7,103 @@ const fakeData = [
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
   {
     image:
       "https://www.successfinder.com/wp-content/uploads/2021/10/Fr-visual-1024x536.jpg",
-    title: "6 domaines du developpement professionnel",
+    title: "Les domaines du developpement professionnel",
     destiny: "Version homme",
   },
 ];
