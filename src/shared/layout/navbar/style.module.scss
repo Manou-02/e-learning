@@ -1,6 +1,6 @@
 .sidebar {
   &__container {
-    @apply z-10  flex justify-center;
+    @apply z-10  flex justify-center sticky top-0;
     // box-shadow: 11px 11px 22px #e8e8e8, -11px -11px 22px #ffffff;
   }
   &__content {
@@ -12,7 +12,7 @@
   }
 
   &__icon_container {
-    @apply w-full flex justify-between bg-white z-20 items-center sticky top-0  py-[20px];
+    @apply w-full flex justify-between bg-white z-20 items-center   py-[20px];
   }
 
   &__icon {
