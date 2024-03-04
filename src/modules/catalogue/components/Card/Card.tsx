@@ -1,9 +1,9 @@
-import { Avatar, Button, Tooltip } from "antd";
+import { Avatar, Tooltip } from "antd";
 import { FiUser } from "react-icons/fi";
 
 export const Card = () => {
   return (
-    <div className="w-[350px] h-[420px] bg-white border rounded-[8px] flex flex-col gap-[10px] cursor-pointer border-slate-100 p-[10px]">
+    <div className="w-[300px] h-[420px] hover:scale-105 bg-white border rounded-[8px] flex flex-col gap-[10px] cursor-pointer border-slate-100 p-[10px]">
       <div className="bg-slate-300 w-full h-[70%] rounded-[8px] ">
         <img
           src="https://cdn.pixabay.com/photo/2016/11/12/23/34/learn-1820039_640.jpg"
@@ -36,7 +36,6 @@ export const Card = () => {
             </Tooltip>
             Voir les contributeurs
           </a>
-          {/* <Button> Contributeurs </Button> */}
         </div>
       </div>
     </div>
