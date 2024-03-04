@@ -26,7 +26,7 @@ export const Navbar: FC = () => {
         <div className={styles.sidebar__icon_container}>
           <RiMenu2Fill className={styles.sidebar__icon} />
           <div className={styles.sidebar__title}>E-learning</div>
-          <button className={styles.sidebar__button}>Demo</button>
+          <button className={styles.sidebar__button}>Se connecter</button>
         </div>
         <div className={styles.sidebar__navbar}>
           <MenuBuilder menuList={menuList} isActive mode="horizontal" />

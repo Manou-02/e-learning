@@ -24,6 +24,6 @@
   }
 
   &__button {
-    @apply text-white bg-slate-950 h-[50px] w-[100px] cursor-pointer;
+    @apply text-white bg-slate-950 h-[50px] px-[20px] rounded-[8px] cursor-pointer;
   }
 }
